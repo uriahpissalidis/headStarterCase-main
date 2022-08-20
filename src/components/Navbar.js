@@ -21,6 +21,7 @@ const Navbar = () => {
       <Link to='/'>Home</Link>
       <Link to='/chatroom'>Chatroom</Link>
       <Link to='/calendar'>Calendar</Link>
+      <Link to='/task'>Task</Link>
       {user?.displayName ? (
         
         <button onClick={handleSignOut}>Logout</button>

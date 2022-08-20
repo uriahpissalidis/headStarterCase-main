@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Signin from './pages/Signin';
 import App1 from './App1';
 import App2 from './App2';
+import FirebaseDatabase from './firebaseDatabase';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
           <Route path='/signin' element={<Signin />} />
           <Route path='/chatroom' element={<App1 />} />
           <Route path='/calendar' element={<App2 />} />
+          <Route path='/task' element={<FirebaseDatabase />} />
           <Route
             path='/account'
             element={
